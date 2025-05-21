@@ -11,7 +11,7 @@ st.set_page_config(
 )
 with st.sidebar:
     selected = option_menu(
-        "Main Menu", ["Home", "New Results", "View Result", "Analyze Result", "Update Result", "Delete Result", "Send Results"],
+        "Main Menu", ["Home", "New Result", "View Result", "Analyze Result", "Update Result", "Delete Result", "Send Results"],
         icons=[],
         menu_icon="cast", default_index=0,
         styles={
@@ -23,7 +23,7 @@ with st.sidebar:
 # Page content based on selection
 if selected == "Home":
     home.page()
-elif selected == "New Results":
+elif selected == "New Result":
     new_result.page2()
 elif selected == "View Result":
     view_result.page3()
