@@ -2,7 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
-streamlit==1.36.0
+streamlit
 streamlit_option_menu
 st-gsheets-connection
 fpdf
